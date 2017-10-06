@@ -1,7 +1,7 @@
 {
   "name": "mjs-require",
   "version": "0.0.0",
-  "description": "Making npm CommonJS modules available in NodeJS",
+  "description": "Making npm CommonJS based modules available in NodeJS ESM.",
   "main": "index.js",
   "repository": {
     "type": "git",

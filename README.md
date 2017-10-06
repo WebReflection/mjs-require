@@ -1,5 +1,5 @@
 # mjs-require
-Making npm CommonJS modules available in NodeJS
+Making npm CommonJS based modules available in NodeJS ESM.
 
 ## How to install
 ```sh
@@ -10,5 +10,5 @@ npm install -g mjs-require
 Require the module before launching your ESM based project.
 
 ```sh
-node --r mjs-require --experimental-modules index.mjs
+node -r mjs-require --experimental-modules index.mjs
 ```
