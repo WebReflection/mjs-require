@@ -1,6 +1,15 @@
 # mjs-require
 Making npm CommonJS based modules available in NodeJS ESM.
 
+# alternative
+Use `@std/esm' and configure it as such:
+```js
+"@std/esm": {
+  "cjs": true,
+  "esm": "js"
+}
+```
+
 ## How to install
 You can install it either globally or locally, and use it in latter case via `npm` scripts.
 ```sh
