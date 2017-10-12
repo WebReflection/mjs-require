@@ -2,7 +2,7 @@
 Making npm CommonJS based modules available in NodeJS ESM.
 
 # alternative
-Use `@std/esm' and configure it as such:
+Use [@std/esm](https://github.com/standard-things/esm) and configure it as such:
 ```js
 "@std/esm": {
   "cjs": true,
